@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects — Hnin Wai Khaing</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header class="site-header">
+        <div class="container nav">
+        <div class="brand">Hnin Wai Khaing</div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">Projects</h1>
+
+        <!-- Filter buttons (optional) -->
+        <div style="text-align:center;margin-bottom:1rem">
+        <button class="btn ghost" data-filter="all">All</button>
+        <button class="btn ghost" data-filter="ml">ML / NLP</button>
+        <button class="btn ghost" data-filter="viz">Power BI</button>
+        <button class="btn ghost" data-filter="iv">Interactive Visualization (JS)</button>
+        <button class="btn ghost" data-filter="py">Python / R</button>
+        <button class="btn ghost" data-filter="ta">Tableau</button>
+        </div>
+
+        <div class="project-grid">
+        <!-- Sentiment -->
+        <article class="card" id="sentiment" data-tags="ml py">
+            <div class="shot-browser">
+                <img src="images/sentiment_dashboard.png" alt="Sentiment dashboard">
+            </div>
+            
+            <div class="content">
+            <h3>Sentiment-Driven Product Recommendation</h3>
+            <p class="project-desc">This project utilizes how sentiment analysis can enhance product recommendations and 
+                sales insights within e-commerce platforms. It applies Natural Language Processing (NLP) 
+                techniques—including text preprocessing, feature engineering, and TF-IDF vectorization—to 
+                Amazon product reviews to develop a sentiment-driven recommendation system. Supervised 
+                machine learning algorithms, including Logistic Regression, Naïve Bayes, and Support Vector 
+                Machine (SVM), are used to classify user reviews into positive, negative, or neutral sentiments.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">ML</span><span class="tag">NLP</span><span class="tag">Flask</span><span class="tag">Chart.js</span></div>
+            <div class="actions">
+                <a class="btn primary" href="sentiment.html" target="_blank">Details</a>
+                <a class="btn ghost" href="https://github.com/Kha998/Sentiment-product-Recommendation-System" target="_blank">Source Code</a>
+            </div>
+            </div>
+
+        </article>
+
+        
+
+
+        
+
+        <!-- D3 -->
+        <article class="card" id="ed" data-tags="iv">
+            <div class="shot-browser">
+                <img src="images/medical_DV.png" alt="Healthcare ED dashboard">
+            </div>
+        
+            <div class="content">
+            <h3>Medical Facilities Data Visualization Dashboard</h3>
+            <p class="project-desc">This dashboard analyzes a dataset of medical facilities and provides insights into key performance indicators and trends.</p>
+            <div class="tags"><span class="tag">D3.js</span><span class="tag">WebSockets</span></div>
+            <div class="actions">
+                <a class="btn primary" href="medicare_IV.html" target="_blank">Details</a>
+                <a class="btn ghost" href="https://github.com/Kha998/Medical-Facilities-Data-Visualization-Dashboard" target="_blank">Source Code</a>
+            </div>
+            </div>
+
+            
+        </article>
+
+        <!-- Amazon Prime Content Trends -->
+            <article class="card" data-tags="ta">
+            <div class="shot-browser">
+                <img src="images/amazon_dashboard.png" alt="Amazon Prime Dashboard">
+            </div>
+            <div class="content">
+                <h3>Amazon Prime Content Trends & Profit Dynamics</h3>
+                <p class="project-desc">Tableau dashboards uncover content performance, profitability, and subscription growth patterns.</p>
+                <div class="tags">
+                <span class="tag">Tableau</span>
+                <span class="tag">Data Visualization</span>
+                </div>
+                <div class="actions">
+                <a class="btn primary" href="amazon.html">Details</a>
+
+                </div>
+            </div>
+            </article>
+
+            <!-- Hospital Service Utilization -->
+        <article class="card" data-tags="viz">
+        <div class="shot-browser">
+            <img src="images/hospital_dashboard.png" alt="Hospital Service Utilization">
+        </div>
+        <div class="content">
+            <h3>Hospital Service Utilization & Cost Analysis</h3>
+            <p class="project-desc">Power BI dashboards integrated with SQL to analyze costs, patient flow, and resource utilization.</p>
+            <div class="tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">SQL</span>
+            <span class="tag">M Languare</span>
+            <span class="tag">DAX</span>
+            <span class="tag">Data Modeling</span>
+            <span class="tag">Business Intelligence</span>
+            </div>
+            <div class="actions">
+            <a class="btn primary" href="hospital.html">Details</a>
+            <a class="btn ghost" href="https://github.com/Kha998/Big-Data-Business-Intelligence" target="_blank">Source Code</a>
+
+            </div>
+        </div>
+        </article>
+
+        <article class="card" data-tags="viz">
+        <div class="shot-browser">
+            <img src="images/sale_performance_Analyst_dashboard.png" alt="Hospital Service Utilization">
+        </div>
+        <div class="content">
+            <h3>Sales Performance Dashboard (Power BI)</h3>
+            <p class="project-desc">Designed an interactive Power BI dashboard using the DataCo Supply Chain dataset to analyze sales performance, profit margins, and customer behavior across global markets.</p>
+            
+            <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Data Modeling </span>
+                <span class="tag">ETL in Power Query</span>
+                <span class="tag">KPI Design</span>
+                <span class="tag">Data Visualization</span>
+                <span class="tag">Business Storytelling</span>
+            </div>
+
+            <div class="actions">
+            <a class="btn primary" href="sale_performances.html">Details</a>
+        
+            <a class="btn ghost" href="https://app.powerbi.com/groups/me/reports/e80be6c4-f423-4635-b791-03c3abc64468/1443a3de72976b23c66b?experience=power-bi" target="_blank">View Interactive Dashboard</a>
+
+            </div>
+        </div>
+        </article>
+
+        <article class="card" data-tags="viz">
+        <div class="shot-browser">
+            <img src="images/Strategic_Insight_Dashboard.png" alt="Hospital Service Utilization">
+        </div>
+        <div class="content">
+            <h3>Strategic Insights & Decision Support Dashboard</h3>
+            <p class="project-desc">An interactive Power BI dashboard that visualizes e-commerce sales, profits, and category performance.
+                It highlights top-selling products, profit margins, and sales trends to support data-driven business decisions.</p>
+            
+            <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Data Modeling</span>
+                <span class="tag">M Language</span>
+                <span class="tag">KPI Design</span>
+                <span class="tag">Data Visualization</span>
+                <span class="tag">Business Storytelling</span>
+            </div>
+
+            <div class="actions">
+            <a class="btn primary" href="strategic_insight.html">Details</a>
+        
+            <a class="btn ghost" href="https://app.powerbi.com/groups/me/reports/e80be6c4-f423-4635-b791-03c3abc64468/fe82fdcd1e2b04609306?experience=power-bi" target="_blank">View Interactive Dashboard</a>
+
+            </div>
+        </div>
+        </article>
+
+        
+
+        <article class="card" data-tags="viz">
+        <div class="shot-browser">
+            <img src="images/HR_Analyst_Page1.png" alt="Hospital Service Utilization">
+        </div>
+        <div class="content">
+            <h3>HR Analytics Dashboard — Employee Attrition & Workforce Insights using Power BI</h3>
+            <p class="project-desc">Designed an interactive HR Analytics Dashboard in Power BI to analyze employee attrition, demographics, income, overtime, and workforce trends.
+            Built a star schema data model and implemented DAX measures to track key HR KPIs such as attrition rate, overtime percentage, and income distribution.
+            Provided actionable insights to help HR managers identify retention risks and improve employee satisfaction.</p>
+
+            <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">Power Query</span>
+                <span class="tag">DAX</span>
+                <span class="tag">M Language</span>
+                <span class="tag">Data Modeling</span>
+                <span class="tag">Visualization Design</span>
+                <span class="tag">Business Intelligence</span>
+            </div>
+
+            
+            <div class="actions">
+            <a class="btn primary" href="HR_Analyst.html">Details</a>
+        
+            <a class="btn ghost" href="https://app.powerbi.com/groups/me/reports/2f53488d-5550-413e-954b-835d0444a345/e87baf23457bb3bb404e?experience=power-bi" target="_blank">View Interactive Dashboard</a>
+
+            </div>
+        </div>
+        </article>
+
+        <article class="card" data-tags="viz">
+        <div class="shot-browser">
+            <img src="images/Customer_Analyst.png" alt="Hospital Service Utilization">
+        </div>
+        <div class="content">
+            <h3>Customer Behavior and Sales Performance Dashboard (Power BI)</h3>
+            <p class="project-desc">Designed an interactive BI dashboard analyzing customer behavior, sales trends, and profitability using a star schema model. Built DAX measures for KPIs (Sales, Profit Margin, AOV) and created visualizations 
+                that reveal corporate customers as top contributors with consistent sales growth from 2011–2014..</p>
+            
+            <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Data Modeling</span>
+                <span class="tag">M Language</span>
+                <span class="tag">Dashboard Design</span>
+                <span class="tag">Business Intelligence</span>
+                <span class="tag">Data Storytelling</span>
+            </div>
+
+            <div class="actions">
+            <a class="btn primary" href="Customer_Analyst.html">Details</a>
+        
+            <a class="btn ghost" href="https://app.powerbi.com/groups/me/reports/35c44824-d317-4f98-8e20-c53844e9d63e/dbdede6736a60cd28040?experience=power-bi" target="_blank">View Interactive Dashboard</a>
+
+            </div>
+        </div>
+        </article>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+        <span>© <span id="year"></span> Hnin Wai Khaing</span>
+        <a class="btn ghost" href="index.html">← Back to Home</a>
+        </div>
+    </footer>
+
+    <!-- Tiny filter JS (optional) -->
+    <script>
+        document.querySelectorAll('[data-filter]').forEach(btn=>{
+        btn.addEventListener('click',()=>{
+            const f = btn.getAttribute('data-filter');
+            document.querySelectorAll('.project-grid .card').forEach(c=>{
+            const tags = (c.dataset.tags||'').split(' ');
+            c.style.display = (f==='all'||tags.includes(f)) ? '' : 'none';
+            });
+            document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('primary'));
+            btn.classList.add('primary');
+        });
+        });
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

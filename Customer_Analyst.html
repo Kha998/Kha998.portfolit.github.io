@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Service Utilization & Cost Analysis</title>
+    <link rel="stylesheet" href="style.css"> <!-- your main CSS -->
+    <style>
+        .project-section {
+        background-color: #f8fafc;
+        padding: 25px;
+        border-radius: 12px;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .project-image {
+        width: 100%;
+        max-width: 850px;
+        border-radius: 8px;
+        display: block;
+        margin: 15px auto;
+        }
+
+        .dashboard-link, .download-link {
+        display: inline-block;
+        margin: 10px 15px 0 0;
+        padding: 10px 18px;
+        background-color: #1565C0;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: background 0.3s ease;
+        }
+
+        .dashboard-link:hover, .download-link:hover {
+        background-color: #0d47a1;
+        }
+
+        .download-btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        background-color: #1565C0;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+        background-color: #0d47a1;
+        }
+
+    </style>
+    </head>
+    <body>
+    <div class="detail-container">
+        <section id="sales-dashboard" class="project-section">
+        <h2>Customer Behavior and Sales Performance Dashboard (Power BI)</h2>
+
+        <!-- Dashboard Preview Image -->
+        <img src="images/Customer_Analyst.png" alt="Power BI Sales Performance Dashboard preview" class="project-image">
+
+
+
+        <!-- Project Description -->
+        <h3>
+            Project OverView
+        </h3>
+        <p>
+            This Power BI dashboard provides a comprehensive analysis of customer purchasing behavior and sales performance using the Global Superstore dataset.
+The project aims to help businesses identify key revenue drivers, understand customer segments, track performance trends, and evaluate profitability through interactive data visualizations.
+        </p>
+
+        
+        <!-- Key Features -->
+        <h3>Tools and Techniques</h3>
+        <ul>
+            <li><strong>Power BI Desktop:</strong> Data modeling, visualization, and KPI design</li>
+            <li><strong>Power Query Editor:</strong> Data cleaning and transformation</li>
+            <li><strong>DAX (Data Analysis Expressions):</strong>Custom measures for KPIs</li>
+            <li><strong>Star Schema Modeling:</strong> Fact and Dimension tables for optimized relationships</li>
+        </ul>
+
+        <h3>
+            Dashboard Features
+        </h3>
+        <ul>
+            <li>KPI cards summarizing Total Customers, Orders, Sales, AOV, and Profit Margin %</li>
+            <li>Time-series charts for Sales and Orders by Year</li>
+            <li>Category and Segment analysis for Top-performing products and customer groups</li>
+            <li>Interactive slicers for Country, Category, Sub-category, and Segment</li>
+            <li>Matrix table for Sales and Profit by Product Category and Sub-category</li>
+            <li>Insight text box summarizing business findings</li>
+        </ul>
+
+        <h3>
+            Key Insights
+        </h3>
+        <ul>
+            <li>Sales and orders grew steadily from 2011 to 2014, showing strong business expansion.</li>
+            <li>Technology and Furniture categories generated the highest revenue.</li>
+            <li>Average profit margin remained stable at 12%, with an average order value of $462.</li>
+            <li>Corporate customers contributed over 50% of total sales, showing their high value to the business.</li>
+            
+        </ul>
+
+        <p>
+            This dashboard enables business leaders to monitor sales performance, identify high-value customer segments, and make data-driven decisions to improve profitability and growth strategies.
+        </p>
+
+        <!-- Interactive Link -->
+        <a href="https://app.powerbi.com/groups/me/reports/35c44824-d317-4f98-8e20-c53844e9d63e/dbdede6736a60cd28040?experience=power-bi" 
+            target="_blank" 
+            class="dashboard-link">
+            View Interactive Dashboard
+        </a>
+
+        <!-- Optional Download Link -->
+        <a href="https://github.com/Kha998/Portfolio.io/blob/main/BI%20projects/Customer%20Behavior%20and%20Performance%20Analyst%20Dashboard.pbix" 
+            target="_blank" 
+            class="download-link">
+            Download Power BI File
+        </a>
+
+        <!-- Download button -->
+        <a href="files/Customer Behavior and Performance Analysis Dashboard.pdf" 
+            target="_blank" 
+            download 
+            class="download-btn">
+            Download Full Business Report
+        </a>
+        </section>
+
+
+    </div>
+    <footer>
+        <div class="container footer-inner">
+        <span>© <span id="year"></span> Hnin Wai Khaing</span>
+        <a class="btn ghost" href="projects.html">← Back to Main</a>
+        </div>
+    </footer>
+</body>
+</html>

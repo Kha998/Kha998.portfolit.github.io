@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment-Driven Product Recommendation</title>
+    <link rel="stylesheet" href="style.css"> <!-- link your main CSS -->
+    <style>
+        .detail-container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .detail-container h1 {
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+        }
+        .detail-container img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+        }
+        .back-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 18px;
+        background: #f4f4f4;
+        color: #333;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.3s ease;
+        }
+        .back-btn:hover {
+        background: #ddd;
+        }
+
+        .download-btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        background-color: #1565C0;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+        background-color: #0d47a1;
+        }
+    </style>
+    </head>
+    <body>
+
+    <div class="detail-container">
+        <h1>Sentiment-Driven Product Recommendation</h1>
+        <p>
+        This project leverages <strong>NLP (TextBlob + TF-IDF)</strong> to analyze customer reviews
+        and generate product recommendations. It uses a <strong>Flask API</strong> as backend and an
+        interactive <strong>Chart.js/D3.js dashboard</strong> for data visualization.
+        </p>
+
+        <img src="images/sentiment_dashboard.png" alt="Sentiment Dashboard">
+
+        <h2>Features</h2>
+        <ul>
+        <li>Visualize sentiment distribution of reviews</li>
+        <li>Backend API built with Flask</li>
+        <li>NLP pipeline with TextBlob & TF-IDF</li>
+        <li>Interactive charts with Chart.js and D3.js</li>
+        </ul>
+        <p class="project-desc">
+            This project utilizes how sentiment analysis can enhance product recommendations and sales insights within e-commerce platforms. It applies Natural Language Processing (NLP) techniques—including text preprocessing, feature engineering, and TF-IDF vectorization—to Amazon product reviews to develop a sentiment-driven recommendation system. Supervised machine learning algorithms, including Logistic Regression, Naïve Bayes, and Support Vector Machine (SVM), are used to classify user reviews into positive, negative, or neutral sentiments.
+            The technology provides important data, including sentiment distribution, price-performance analysis, rating trends, and review patterns across product categories on an interactive visualization dashboard, in addition to producing individualized product suggestions. This two-pronged strategy helps customers and organizations to make more informed decisions by combining structured product criteria with unstructured user feedback. 
+        </p>
+            <p class="project-desc">   The technology provides important data, including sentiment distribution, price
+            performance analysis, rating trends, and review patterns across product categories on an 
+            interactive visualization dashboard, in addition to producing individualized product 
+            suggestions. This two-pronged strategy helps customers and organizations to make more 
+            informed decisions by combining structured product criteria with unstructured user feedback.  
+            Experimental results demonstrate that Logistic Regression achieved the best 
+            performance with an accuracy of 90.15% and an F1-score of 0.9008, outperforming Naïve 
+            Bayes (70.27%, 0.6416) and SVM (87.71%, 0.8745). These results confirm that real-time 
+            visualization and interpretable machine learning models work well together to turn user
+            generated content into actionable intelligence for more intelligent e-commerce tactics.  
+
+
+        </p>
+
+        <!-- Download button -->
+        <a href="files/Sentiment_DS_Report.pdf" 
+            target="_blank" 
+            download 
+            class="download-btn">
+            Download Full Business Report
+        </a>
+        </section>
+
+        
+    </div>
+
+    <footer>
+        <div class="container footer-inner">
+        <span>© <span id="year"></span> Hnin Wai Khaing</span>
+        <a class="btn ghost" href="projects.html">← Back to Main</a>
+        </div>
+    </footer>
+</body>
+</html>

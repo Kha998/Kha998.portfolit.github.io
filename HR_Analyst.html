@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Service Utilization & Cost Analysis</title>
+    <link rel="stylesheet" href="style.css"> <!-- your main CSS -->
+    <style>
+        .project-section {
+        background-color: #f8fafc;
+        padding: 25px;
+        border-radius: 12px;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .project-image {
+        width: 100%;
+        max-width: 850px;
+        border-radius: 8px;
+        display: block;
+        margin: 15px auto;
+        }
+
+        .dashboard-link, .download-link {
+        display: inline-block;
+        margin: 10px 15px 0 0;
+        padding: 10px 18px;
+        background-color: #1565C0;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: background 0.3s ease;
+        }
+
+        .dashboard-link:hover, .download-link:hover {
+        background-color: #0d47a1;
+        }
+
+        .download-btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        background-color: #1565C0;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+        background-color: #0d47a1;
+        }
+
+    </style>
+    </head>
+    <body>
+    <div class="detail-container">
+        <section id="sales-dashboard" class="project-section">
+        <h2>HR Analytics Dashboard (Power BI)</h2>
+
+            <!-- Dashboard Preview Image -->
+            <h3>Attrition Overview Page</h3>
+            <img src="images/HR_Analyst_Page1.png" alt="HR Analytics Dashboard Power BI preview" class="project-image">
+            <h3>Demographics Page</h3>
+
+            <img src="images/HR_Analyst_Page2.png" alt="HR Analytics Dashboard Power BI preview" class="project-image">
+            <h3>Salary & Overtime Page</h3>
+
+            <img src="images/HR_Analyst_Page3.png" alt="HR Analytics Dashboard Power BI preview" class="project-image">
+
+            <!-- Project Description -->
+            <p>
+            Designed an <strong>interactive HR Analytics Dashboard</strong> using <em>Power BI</em> to analyze 
+            employee attrition, demographics, compensation, and overtime trends. 
+            The dashboard provides <strong>data-driven insights</strong> to help HR departments identify workforce risks,
+            understand the root causes of employee turnover, and make informed retention decisions. 
+            This project demonstrates a complete <strong>Business Intelligence workflow</strong> — from data cleaning and modeling
+            to DAX-based KPIs and interactive storytelling visuals.
+            </p>
+
+            <!-- Key Features -->
+            <ul>
+            <li><strong>Tools Used:</strong> Power BI, Power Query (M), DAX, Excel, Data Modeling</li>
+            <li><strong>KPIs:</strong> Total Employees, Attrition Count, Attrition Rate %, Average Monthly Income, Overtime Rate %</li>
+            <li><strong>Visuals:</strong> Attrition by Department, Job Role, Age Band, Income Band, Education Field, and Experience Group</li>
+            <li><strong>Insights:</strong> 
+                <ul>
+                    <li>Overall attrition rate: <strong>16%</strong> (237 employees left out of 1,000).</li>
+                    <li><strong>Sales</strong> and <strong>Human Resources</strong> departments show the highest turnover.</li>
+                    <li><strong>Low-income</strong> and <strong>younger employees (18–25)</strong> have the highest attrition.</li>
+                    <li><strong>Overtime (28%)</strong> indicates workload pressure and burnout risk.</li>
+                </ul>
+            </li>
+            <li>🧭 <strong>Recommendations:</strong> Improve pay equity, manage overtime, and introduce mentorship programs for early-career staff.</li>
+            </ul>
+
+
+        <!-- Interactive Link -->
+        <a href="https://app.powerbi.com/groups/me/reports/2f53488d-5550-413e-954b-835d0444a345/e87baf23457bb3bb404e?experience=power-bi" 
+            target="_blank" 
+            class="dashboard-link">
+            View Interactive Dashboard
+        </a>
+
+        <!-- Optional Download Link -->
+        <a href="https://github.com/Kha998/Portfolio.io/blob/main/BI%20projects/HR_Analyst_Dashboard.pbix" 
+            target="_blank" 
+            class="download-link">
+            Download Power BI File
+        </a>
+
+        <!-- Download button -->
+        <a href="files/HR Analytics Dashboard for Attrition_Report.pdf" 
+            target="_blank" 
+            download 
+            class="download-btn">
+            Download Full Business Report
+        </a>
+        </section>
+
+
+    </div>
+    <footer>
+        <div class="container footer-inner">
+        <span>© <span id="year"></span> Hnin Wai Khaing</span>
+        <a class="btn ghost" href="projects.html">← Back to Main</a>
+        </div>
+    </footer>
+</body>
+</html>
