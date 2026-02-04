@@ -116,7 +116,29 @@
 #projects .actions a.code:hover {
     background: #ddd;
 }
+.project-meta{
+  margin-top: 14px;
+  padding: 14px 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  background: #fafafa;
+}
 
+.project-meta h4{
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.project-meta ul{
+  margin: 0;
+  padding-left: 18px;
+}
+
+.project-meta li{
+  margin: 6px 0;
+  line-height: 1.4;
+}
 /* === Responsive tweaks === */
 
 /* Tablet */
@@ -461,3 +483,4 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
