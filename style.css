@@ -191,9 +191,9 @@
   font-size: 1.15rem;
 }
 
-.hero-merge__blurb{
+.hero-merge__blurb p{
   max-width: 560px;         /* controls line breaks */
-  margin: 1.2rem auto 0;    /* centers under title */
+  margin: 0;    /* centers under title */
   font-size: 1.05rem;
   line-height: 1.75;
   color: rgba(255,255,255,0.85);
@@ -493,6 +493,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
