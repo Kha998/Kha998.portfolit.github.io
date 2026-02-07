@@ -206,7 +206,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  box-shadow: 0 20px 40px rgba(0,0,0,.35);
+  box-shadow: 0 10px 25px rgba(0,0,0,.3);
 }
 
 /* IMPORTANT: force the image to fill the circle */
@@ -487,6 +487,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
