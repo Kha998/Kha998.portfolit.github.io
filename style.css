@@ -196,7 +196,7 @@
  margin: 1.4rem auto 0;
   font-size: 0.8rem;
     
-  line-height: 1.75;
+  line-height: 1.5;
   font-style: normal;       /* remove italic */
 
 }
@@ -493,6 +493,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
