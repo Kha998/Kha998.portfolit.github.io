@@ -193,7 +193,7 @@
 }
 .hero-merge__blurb{
     max-width: 640px;
-    line-height: 1.7;
+    line-height: 1.6;
     opacity: .9;
 }
 .hero-merge__actions{ display: flex; gap: .8rem; margin: 1.2rem 0 .6rem; }
@@ -484,6 +484,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
