@@ -201,7 +201,7 @@
 
 /* photo (perfect circle) */
 .hero-merge__photo{
-    justify-self:  top ;
+    
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -484,6 +484,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
