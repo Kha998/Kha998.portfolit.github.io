@@ -193,8 +193,9 @@
 
 .hero-merge__blurb p{
         /* controls line breaks */
-  margin: 0;    /* centers under title */
-  font-size: 1rem;
+ margin: 1.4rem auto 0;
+  font-size: 0.8rem;
+    
   line-height: 1.75;
   font-style: normal;       /* remove italic */
 
@@ -492,6 +493,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
