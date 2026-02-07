@@ -180,9 +180,10 @@
 /* headings / text */
 
 .hero-merge__name{
-  font-size: 2.6rem;
-  letter-spacing: .14em;
+  font-size: 2.3rem;
+  letter-spacing: .08em;
   font-weight: 600;
+    text-transform: none; 
 }
 .hero-merge__role{
   margin: .8rem 0 1.4rem;
@@ -507,6 +508,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
