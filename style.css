@@ -200,6 +200,20 @@
   font-style: normal;       /* remove italic */
 
 }
+.hero-merge__summary{
+  max-width: 580px;
+  margin: 1.6rem 0 0;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.01em;
+}
+
+.hero-merge__summary strong{
+  font-weight: 600;
+  color: #ffffff;
+}
+
 
 
 .hero-merge__actions{ display: flex; gap: .8rem; margin: 1.2rem 0 .6rem; }
@@ -493,6 +507,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
