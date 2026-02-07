@@ -202,11 +202,10 @@
 /* photo (perfect circle) */
 .hero-merge__photo{
   width: 320px;
-  height: 320px;
+  height: 500px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  border: 4px solid rgba(255,255,255,0.6);
   box-shadow: 0 20px 40px rgba(0,0,0,.35);
 }
 
@@ -215,7 +214,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block; /* removes tiny gaps */
+ 
 }
 
 
@@ -488,6 +487,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
