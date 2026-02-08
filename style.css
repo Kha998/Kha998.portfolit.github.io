@@ -359,6 +359,8 @@ a{color:inherit}
     font-size: 2rem;
     margin-bottom: 2.5rem;
     font-weight: 700;
+    font-style: normal; 
+    text-transform: none;
 }
 
 .skills-grid {
@@ -393,6 +395,8 @@ a{color:inherit}
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: .7rem;
+    font-style: normal; 
+    text-transform: none;
 }
 
 .skill-card p {
@@ -432,6 +436,8 @@ a{color:inherit}
 .skill-card h3 {
     margin: 0 0 .4rem;
     font-size: 1.05rem;
+    font-style: normal; 
+    text-transform: none;
 }
 .skill-card p {
     margin: 0;
@@ -472,6 +478,8 @@ a{color:inherit}
 .edu-card h3 {
     margin: 0 0 0.3rem;
     font-size: 1.2rem;
+    font-style: normal; 
+    text-transform: none;
 }
 .edu-card p {
     margin: 0 0 0.5rem;
@@ -506,6 +514,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     .hero h1{font-size:1.6rem}
     .card img{height:140px}
 }
+
 
 
 
