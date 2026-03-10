@@ -21,6 +21,8 @@
     text-transform: none;
     max-width: 820px;
     width: 100%;
+    text-align: justify;
+    
 }
 
 /* Grid layout */
@@ -533,4 +535,5 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     text-align: justify;
     font-style: normal;
 }
+
 
