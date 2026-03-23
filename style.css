@@ -221,7 +221,7 @@
 
 /* photo (perfect circle) */
 .hero-merge__photo{
-    justify-self: center;
+    
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
