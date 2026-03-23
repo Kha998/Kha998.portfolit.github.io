@@ -188,14 +188,13 @@
 .hero-merge_inner{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-items: center;
     gap: 2.5rem;
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
 .hero-merge_text{
-    max-width: 700px;
+    max-width: 1200px;
 }
 
 .hero-merge_name{
@@ -546,7 +545,7 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     font-size: 1rem;
     line-height: 1.8;
     color: #cbd5e1;
-    max-width: 820px;
+    max-width: 1200px;
     width: 100%;
     margin: 20px auto;
     letter-spacing: 0.02em;
