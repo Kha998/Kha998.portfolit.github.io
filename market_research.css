@@ -154,6 +154,40 @@ body{
     margin: 10px 0;
     }
 
+.dashboard-story-section {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+
+.dashboard-story-section h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+
+.dashboard-story-section p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #d4dced;
+}
+
+.story-highlight {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(116, 170, 255, 0.08);
+  border-left: 4px solid #79a9ff;
+}
+
+.story-highlight h4 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #9fc0ff;
+}
+
     /* Responsive */
     @media (max-width:768px){
     .info-card{
