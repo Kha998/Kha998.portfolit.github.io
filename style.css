@@ -536,11 +536,11 @@ a{color:inherit}
 footer{border-top:1px solid #eaeaea;margin-top:2rem}
 .footer-inner{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;padding:1rem 0;color:#555}
 
-/* Responsive tweaks 
+/* Responsive tweaks */
 @media(max-width:768px){
     .hero{padding:2rem 0}
     .hero h1{font-size:1.6rem}
-    .card img{height:140px} */
+    .card img{height:140px} 
 }
 #intro p.hero-merge_blurb {
     font-family: "Poppins", sans-serif;
