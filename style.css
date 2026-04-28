@@ -254,6 +254,7 @@
 @media (max-width: 768px){
     .hero-merge__inner{ grid-template-columns: 1fr; text-align: right; }
     .hero-merge__photo{ margin: 0 auto; width: 220px; height: 220px; }
+    
 }
 
 
