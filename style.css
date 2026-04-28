@@ -252,64 +252,38 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
- /* Change layout to vertical */
-  .hero-merge__inner {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    padding: 100px 24px 80px !important;
-    gap: 30px !important;
+ .hero-merge__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 24px;
+    gap: 28px;
   }
 
-  /* Fix image */
   .hero-merge__photo {
-    width: 200px !important;
-    height: 270px !important;
-    margin: 0 auto !important;
+    width: 200px;
+    height: 270px;
+    margin: 0 auto;
   }
 
-  /* Fix text container */
-  .hero-merge__inner > div:last-child {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* Name */
   .hero-merge__inner h2 {
-    font-size: 28px !important;
-    line-height: 1.3 !important;
-    letter-spacing: 3px !important;
-    margin-bottom: 10px !important;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
   }
 
-  /* Job title */
-  .hero-merge__inner > div:last-child > p:first-of-type {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
-    margin-bottom: 20px !important;
-  }
-
-  /* IMPORTANT: fix broken words */
-  .hero-merge__blurb,
   .hero-merge__inner p {
-    font-size: 15px !important;
-    line-height: 1.75 !important;
-    text-align: left !important;
-
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
-    white-space: normal !important;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: left;
   }
 
-  /* Contact buttons */
   .actions.special {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 12px !important;
-    margin-top: 25px !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
+
 }
 
 
