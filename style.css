@@ -552,3 +552,36 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     text-align: justify;
     font-style: normal;
 }
+/* PHONE */
+@media screen and (max-width: 768px) {
+  .hero-merge_inner {
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 22px;
+  }
+
+  .hero-merge_photo img {
+    width: 170px;
+    height: 230px;
+  }
+
+  .hero-merge_inner h2 {
+    font-size: 24px;
+  }
+
+  .hero-merge_inner p:first-of-type {
+    font-size: 14px;
+  }
+
+  .hero-merge_blurb {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .actions.special {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
