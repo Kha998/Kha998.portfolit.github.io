@@ -252,10 +252,44 @@
 
 /* mobile */
 @media (max-width: 768px){
-    .hero-merge__inner{ grid-template-columns: 1fr; text-align: right; }
-    .hero-merge__photo{ margin: 0 auto; width: 220px; height: 220px; }
+
+      .hero-merge__inner {
+    grid-template-columns: 1fr;
+    padding: 45px 22px 80px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .hero-merge__photo {
+    width: 170px;
+    height: 235px;
+  }
+
+  .hero-merge__inner h2 {
+    font-size: 23px;
+    letter-spacing: 3px;
+  }
+
+  .hero-merge__inner > div:last-child > p:first-of-type {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .hero-merge__blurb {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .actions.special {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+
     
 }
+
 
 
 .skills-list {
@@ -553,36 +587,4 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     text-align: justify;
     font-style: normal;
 }
-/* PHONE */
-@media screen and (max-width: 768px) {
-  .hero-merge_inner {
-    flex-direction: column;
-    gap: 25px;
-    padding: 40px 22px;
-  }
 
-  .hero-merge_photo img {
-    width: 170px;
-    height: 230px;
-  }
-
-  .hero-merge_inner h2 {
-    font-size: 24px;
-  }
-
-  .hero-merge_inner p:first-of-type {
-    font-size: 14px;
-  }
-
-  .hero-merge_blurb {
-    font-size: 14px;
-    line-height: 1.7;
-    text-align: left;
-  }
-
-  .actions.special {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-}
