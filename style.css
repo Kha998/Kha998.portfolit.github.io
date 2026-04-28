@@ -299,14 +299,18 @@
 }
 
 .skills-list p{
-    margin: 6px 0;
+   /* margin: 6px 0;
     font-style: normal;
-    text-transform: none;
+    text-transform: none; */
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .skills-list strong{
     display: inline-block;
-    width: 250px;
+   
+    min-width: 200px;
 }
 
 /* Base */
