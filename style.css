@@ -252,60 +252,63 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
+ /* Change layout to vertical */
   .hero-merge__inner {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
-    padding: 90px 24px 80px !important;
-    gap: 28px !important;
+    padding: 100px 24px 80px !important;
+    gap: 30px !important;
   }
 
+  /* Fix image */
   .hero-merge__photo {
-    width: 190px !important;
-    height: 260px !important;
-    border-width: 5px !important;
+    width: 200px !important;
+    height: 270px !important;
     margin: 0 auto !important;
   }
 
+  /* Fix text container */
   .hero-merge__inner > div:last-child {
     width: 100% !important;
     max-width: 100% !important;
   }
 
+  /* Name */
   .hero-merge__inner h2 {
     font-size: 28px !important;
-    line-height: 1.25 !important;
-    letter-spacing: 4px !important;
-    text-align: center !important;
+    line-height: 1.3 !important;
+    letter-spacing: 3px !important;
+    margin-bottom: 10px !important;
   }
 
+  /* Job title */
   .hero-merge__inner > div:last-child > p:first-of-type {
-    font-size: 17px !important;
+    font-size: 16px !important;
     line-height: 1.6 !important;
-    text-align: center !important;
-    margin-bottom: 25px !important;
+    margin-bottom: 20px !important;
   }
 
-  .hero-merge__blurb {
+  /* IMPORTANT: fix broken words */
+  .hero-merge__blurb,
+  .hero-merge__inner p {
     font-size: 15px !important;
     line-height: 1.75 !important;
     text-align: left !important;
-    max-width: 100% !important;
+
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
   }
 
+  /* Contact buttons */
   .actions.special {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    gap: 10px !important;
+    gap: 12px !important;
     margin-top: 25px !important;
-  }
-
-  .down-btn {
-    width: 42px !important;
-    height: 42px !important;
-    bottom: 18px !important;
   }
 }
 
