@@ -220,7 +220,7 @@
 }
 
 /* photo (perfect circle) */
-.hero-merge__photo{
+.hero-merge_photo{
     
     border-radius: 50%;
     overflow: hidden;
@@ -230,7 +230,7 @@
     width: 320px;
     height: 500px;
 }
-.hero-merge__photo img{
+.hero-merge_photo img{
     width: 100%;
     height: 100%;
   object-fit: cover;                   /* fill nicely */
@@ -252,7 +252,7 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
- .hero-merge__inner {
+ .hero-merge_inner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,18 +261,18 @@
     gap: 28px;
   }
 
-  .hero-merge__photo {
+  .hero-merge_photo {
     width: 200px;
     height: 270px;
     margin: 0 auto;
   }
 
-  .hero-merge__inner h2 {
+  .hero-merge_inner h2 {
     font-size: 1.8rem;
     letter-spacing: 2px;
   }
 
-  .hero-merge__inner p {
+  .hero-merge_inner p {
     font-size: 0.95rem;
     line-height: 1.7;
     text-align: left;
