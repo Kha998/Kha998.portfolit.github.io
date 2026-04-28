@@ -510,6 +510,16 @@ a{color:inherit}
 @media (max-width: 768px) {
     .skills { padding: 2rem 1rem; }
     .skill-card h3 { font-size: 1rem; }
+     .skills-list p {
+    display: block !important;   /* remove flex */
+    margin-bottom: 14px;
+    line-height: 1.6;
+  }
+
+  .skills-list strong {
+    display: block;              /* move title to top */
+    margin-bottom: 4px;
+  }
 }
 
 
