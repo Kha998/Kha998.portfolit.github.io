@@ -28,12 +28,15 @@
 
 /* Grid layout */
 #projects .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.8rem;
-    max-width: 2500px;
+
+     display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
     width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
 
 /* Individual project card */
