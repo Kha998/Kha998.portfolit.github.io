@@ -33,10 +33,11 @@
 /* Grid layout */
 .project-grid {
 
-   display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:32px;
-    width:100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+width: 100vw;
+max-width: none;
+outline: 3px solid red;
 }
 
 /* Individual project card */
