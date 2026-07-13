@@ -46,7 +46,7 @@
     flex-direction: column;
     transition: all 0.25s ease;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    max-width: 1500px;
+    max-width: 2000px;
     width: 100%;
 }
 
