@@ -26,25 +26,27 @@
     text-align: justify;
 }
 .container{
-    width: min(1500px, 95%);
-    margin: 0 auto;
-    padding: 0;
+    width:min(1500px,95%);
+    margin:0 auto;
+    padding:0 24px;
 }
 /* Grid layout */
 .project-grid {
-
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-width: 100vw;
-max-width: none;
-outline: 3px solid red;
+display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:32px;
+    width:100%;
 }
 
 /* Individual project card */
 .card{
-    width:100%;
+    background:#fff;
+    border:1px solid #eaeaea;
+    border-radius:12px;
+    overflow:hidden;
     display:flex;
     flex-direction:column;
+    width:100%;
 }
 
 #projects .card:hover {
@@ -345,7 +347,7 @@ a{color:inherit}
     text-align: justify;
     font-style: normal;
 }
-/* Project grid (used on projects.html and optional on index) */
+/* Project grid (used on projects.html and optional on index) 
 .project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
 .card{background:#fff;border:1px solid #eaeaea;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-6px);box-shadow:0 12px 24px rgba(0,0,0,.10)}
@@ -361,7 +363,7 @@ a{color:inherit}
 .btn.primary:hover{background:#2a2a2a}
 .btn.ghost{background:#eee;color:#111}
 .btn.ghost:hover{background:#ddd}
-
+ */
 /* Framed screenshot */
 .shot-browser{
     position: relative;
