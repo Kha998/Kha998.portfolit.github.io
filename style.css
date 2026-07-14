@@ -326,7 +326,7 @@ a{color:inherit}
 .container{max-width:1100px;margin:0 auto;padding:1.5rem}
 
 /* Header / Nav */
-.site-header{background:#111;color:#fff}
+.header{background:#111;color:#fff}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem}
 .brand{font-weight:700;letter-spacing:.5px}
 .menu{display:flex;gap:.75rem;flex-wrap:wrap}
