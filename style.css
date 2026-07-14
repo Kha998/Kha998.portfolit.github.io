@@ -33,7 +33,7 @@
 /* Grid layout */
 .project-grid {
     display:grid;
-    grid-template-columns:repeat(2,minmax(650px,1fr));
+    grid-template-columns:repeat(3,minmax(650px,1fr));
     gap:40px;
     margin-bottom:70px;
 }
