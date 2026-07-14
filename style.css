@@ -430,7 +430,7 @@ a{color:inherit}
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
     gap: 1.5rem;
     max-width: 1100px;
     margin: 0 auto;
@@ -471,20 +471,19 @@ a{color:inherit}
 /* ===== Skills Section ===== */
 .skills { padding: 3rem 1rem; background:#fafafa; }
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    ddisplay: grid;
     gap: 1.5rem;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .skill-card {
-    background: #fff;
-    padding: 1.2rem;
-    border-radius: 12px;
-    border: 1px solid #e6e6e6;
-    box-shadow: 0 2px 6px rgba(0,0,0,.05);
-    transition: transform .2s ease, box-shadow .2s ease;
+     background: #fff;
+    border-left: 5px solid #111;
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 .skill-card:hover {
     transform: translateY(-6px);
