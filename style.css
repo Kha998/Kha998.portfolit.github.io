@@ -20,52 +20,7 @@
     transform:translateY(-8px);
 }
 /* === PROJECTS Image === */
-/* === PROJECTS Button === */
-.buttons{
 
-    display:flex;
-    justify-content:center;
-    gap:20px;
-}
-
-.btn{
-
-    text-decoration:none;
-
-    color:white;
-
-    border:2px solid white;
-
-    padding:14px 35px;
-
-    border-radius:10px;
-
-    transition:.35s;
-
-    font-weight:600;
-}
-
-.btn:hover{
-
-    background:white;
-
-    color:#222;
-}
-
-.btn-primary{
-
-    background:#FFD54F;
-
-    color:#222;
-
-    border:none;
-}
-
-.btn-primary:hover{
-
-    background:#ffca28;
-}
-/* === PROJECTS Button === */
 
 #projects h2 {
     text-align: center;
