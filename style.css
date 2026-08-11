@@ -613,4 +613,81 @@ footer{border-top:1px solid #eaeaea;margin-top:2rem}
     text-align: justify;
     font-style: normal;
 }
+/* =========================================
+   CTA
+========================================= */
+
+.footer-cta {
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 40px 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+    text-align: center;
+}
+
+.footer-cta h3 {
+    margin: 0 0 12px;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-cta p {
+    margin: 0;
+
+    color: #aeb7c5;
+
+    font-size: 16px;
+}
+
+.quote-mark {
+    font-size: 60px;
+
+    color: #8b6cff;
+
+    font-family: Georgia, serif;
+}
+/* =========================================
+   BACK TO TOP
+========================================= */
+
+.back-to-top {
+    position: absolute;
+
+    right: 20px;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    background: transparent;
+
+    color: #8b6cff;
+
+    font-size: 25px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    background: #8b6cff;
+    color: white;
+
+    transform: translateY(-4px);
+}
+
 
