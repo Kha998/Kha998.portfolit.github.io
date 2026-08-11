@@ -308,32 +308,88 @@
 
 }
 
-
-
 .skills-list {
-    
-    max-width: 950px;
+    list-style: disc;
 
-    margin: 0 auto;
-    line-height: 1.9;
-    text-align: justify;
+    padding: 25px 35px 25px 45px;
 
+    margin: 0;
+
+    background: #ffffff;
+
+    border-left: 3px solid #171717;
+
+    border-radius: 5px;
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
 }
 
-.skills-list p{
-   /* margin: 6px 0;
-    font-style: normal;
-    text-transform: none; */
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+
+/* Each skill row */
+
+.skills-list li {
+    margin-bottom: 18px;
+
+    padding-left: 5px;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    color: #1f2937;
 }
 
-.skills-list strong{
+
+/* Remove margin from last item */
+
+.skills-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Category */
+
+.skills-list li strong {
+    font-weight: 700;
+
+    color: #172033;
+
     display: inline-block;
-   
-    min-width: 200px;
+
+    min-width: 175px;
 }
+
+
+/* Colon */
+
+.skill-colon {
+    display: inline-block;
+
+    margin-right: 8px;
+
+    font-weight: 600;
+
+    color: #172033;
+}
+
+
+/* Details inside brackets */
+
+.skill-details {
+    color: #7a8491;
+
+    font-size: 14px;
+}
+
+
+/* Hover effect */
+
+.skills-list li:hover {
+    transform: translateX(3px);
+
+    transition: 0.2s ease;
+}
+
 
 /* Base */
 *{box-sizing:border-box}
